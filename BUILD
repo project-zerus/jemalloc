@@ -1,9 +1,9 @@
-package(default_visibility = ["//visibility:public"])
+licenses(['notice'])
 
 cc_library(
   name = 'jemalloc',
-  hdrs = [
-  ],
+  visibility = ['//visibility:public'],
+  hdrs = [],
   srcs = [
     'src/arena.c',
     'src/atomic.c',
